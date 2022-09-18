@@ -1,0 +1,168 @@
+{
+  "users": [
+    {
+      "email": "fuhadhasan479@gmail.com",
+      "password": "$2a$10$S34NXU9ckL6tm2cADX..gukKYWeZrOmpmOO5x3Vn37ijmiKP1b2M.",
+      "name": "Fuhad Hasan",
+      "id": 1
+    },
+    {
+      "email": "sumit@learnwithsumit.com",
+      "password": "$2a$10$Cq816aNQhls7UChXjxw2bexOn0y2PJjLZ9oKnTm1VQe2wuLKrEa5e",
+      "name": "Sumit Saha",
+      "id": 2
+    },
+    {
+      "email": "saad@learnwithsumit.com",
+      "password": "$2a$10$BeiJ9UxLi5LK.T0YhxYYJ.Z3a1laWofzY41rqfd8KSF2l0ZcTGXIi",
+      "name": "Saad Hasan",
+      "id": 3
+    }
+  ],
+  "conversations": [
+    {
+      "participants": "fuhadhasan479@gmail.com-sumit@learnwithsumit.com",
+      "users": [
+        {
+          "email": "fuhadhasan479@gmail.com",
+          "name": "Fuhad Hasan",
+          "id": 1
+        },
+        {
+          "email": "sumit@learnwithsumit.com",
+          "password": "$2a$10$Cq816aNQhls7UChXjxw2bexOn0y2PJjLZ9oKnTm1VQe2wuLKrEa5e",
+          "name": "Sumit Saha",
+          "id": 2
+        }
+      ],
+      "message": "how are you",
+      "timestamp": 1663514260951,
+      "id": 1
+    },
+    {
+      "participants": "fuhadhasan479@gmail.com-saad@learnwithsumit.com",
+      "users": [
+        {
+          "email": "fuhadhasan479@gmail.com",
+          "name": "Fuhad Hasan",
+          "id": 1
+        },
+        {
+          "email": "saad@learnwithsumit.com",
+          "password": "$2a$10$BeiJ9UxLi5LK.T0YhxYYJ.Z3a1laWofzY41rqfd8KSF2l0ZcTGXIi",
+          "name": "Saad Hasan",
+          "id": 3
+        }
+      ],
+      "message": "sdfsdf",
+      "timestamp": 1663514272176,
+      "id": 2
+    },
+    {
+      "participants": "saad@learnwithsumit.com-sumit@learnwithsumit.com",
+      "users": [
+        {
+          "email": "saad@learnwithsumit.com",
+          "name": "Saad Hasan",
+          "id": 3
+        },
+        {
+          "email": "sumit@learnwithsumit.com",
+          "password": "$2a$10$Cq816aNQhls7UChXjxw2bexOn0y2PJjLZ9oKnTm1VQe2wuLKrEa5e",
+          "name": "Sumit Saha",
+          "id": 2
+        }
+      ],
+      "message": "hellosdfsdfsdf",
+      "timestamp": 1663514399135,
+      "id": 3
+    }
+  ],
+  "messages": [
+    {
+      "conversationId": 1,
+      "sender": {
+        "email": "fuhadhasan479@gmail.com",
+        "name": "Fuhad Hasan",
+        "id": 1
+      },
+      "receiver": {
+        "email": "sumit@learnwithsumit.com",
+        "password": "$2a$10$Cq816aNQhls7UChXjxw2bexOn0y2PJjLZ9oKnTm1VQe2wuLKrEa5e",
+        "name": "Sumit Saha",
+        "id": 2
+      },
+      "message": "hello",
+      "timestamp": 1663514250161,
+      "id": 1
+    },
+    {
+      "conversationId": 1,
+      "sender": {
+        "email": "fuhadhasan479@gmail.com",
+        "name": "Fuhad Hasan",
+        "id": 1
+      },
+      "receiver": {
+        "email": "sumit@learnwithsumit.com",
+        "password": "$2a$10$Cq816aNQhls7UChXjxw2bexOn0y2PJjLZ9oKnTm1VQe2wuLKrEa5e",
+        "name": "Sumit Saha",
+        "id": 2
+      },
+      "message": "how are you",
+      "timestamp": 1663514260951,
+      "id": 2
+    },
+    {
+      "conversationId": 2,
+      "sender": {
+        "email": "fuhadhasan479@gmail.com",
+        "name": "Fuhad Hasan",
+        "id": 1
+      },
+      "receiver": {
+        "email": "saad@learnwithsumit.com",
+        "password": "$2a$10$BeiJ9UxLi5LK.T0YhxYYJ.Z3a1laWofzY41rqfd8KSF2l0ZcTGXIi",
+        "name": "Saad Hasan",
+        "id": 3
+      },
+      "message": "sdfsdf",
+      "timestamp": 1663514272176,
+      "id": 3
+    },
+    {
+      "conversationId": 3,
+      "sender": {
+        "email": "saad@learnwithsumit.com",
+        "name": "Saad Hasan",
+        "id": 3
+      },
+      "receiver": {
+        "email": "sumit@learnwithsumit.com",
+        "password": "$2a$10$Cq816aNQhls7UChXjxw2bexOn0y2PJjLZ9oKnTm1VQe2wuLKrEa5e",
+        "name": "Sumit Saha",
+        "id": 2
+      },
+      "message": "hello",
+      "timestamp": 1663514386864,
+      "id": 4
+    },
+    {
+      "conversationId": 3,
+      "sender": {
+        "email": "saad@learnwithsumit.com",
+        "name": "Saad Hasan",
+        "id": 3
+      },
+      "receiver": {
+        "email": "sumit@learnwithsumit.com",
+        "password": "$2a$10$Cq816aNQhls7UChXjxw2bexOn0y2PJjLZ9oKnTm1VQe2wuLKrEa5e",
+        "name": "Sumit Saha",
+        "id": 2
+      },
+      "message": "hellosdfsdfsdf",
+      "timestamp": 1663514399135,
+      "id": 5
+    }
+  ]
+}
